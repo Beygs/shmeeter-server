@@ -1,5 +1,5 @@
 {
-  "name": "cms",
+  "name": "mini-social-network-api",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,15 +11,15 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.0.0-beta.18.8",
-    "strapi-admin": "3.0.0-beta.18.8",
-    "strapi-utils": "3.0.0-beta.18.8",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.18.8",
-    "strapi-plugin-content-manager": "3.0.0-beta.18.8",
-    "strapi-plugin-users-permissions": "3.0.0-beta.18.8",
-    "strapi-plugin-email": "3.0.0-beta.18.8",
-    "strapi-plugin-upload": "3.0.0-beta.18.8",
-    "strapi-connector-bookshelf": "3.0.0-beta.18.8",
+    "strapi": "3.2.5",
+    "strapi-admin": "3.2.5",
+    "strapi-utils": "3.2.5",
+    "strapi-plugin-content-type-builder": "3.2.5",
+    "strapi-plugin-content-manager": "3.2.5",
+    "strapi-plugin-users-permissions": "3.2.5",
+    "strapi-plugin-email": "3.2.5",
+    "strapi-plugin-upload": "3.2.5",
+    "strapi-connector-bookshelf": "3.2.5",
     "knex": "<0.20.0",
     "sqlite3": "latest"
   },
@@ -27,7 +27,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "e7338c0a-5dfb-4918-b43f-5126ea036c56"
+    "uuid": "e3c1b705-6076-4b96-be11-104085b28c34"
   },
   "engines": {
     "node": ">=10.0.0",
