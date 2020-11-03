@@ -18,7 +18,7 @@ Next, you can go in "Paramètres", and into "Rôles & Permissions", you can set 
   - for "User" (in "Users-Permissions" section), check "findone" and "me" checkboxes.
   - then, click "Save" button.
 - For "Public" role permissions:
-  - verify that for "Posts" there is no checked action checkbox. If so, un-check all.
+  - verify that for "Posts" there is no action checkbox checked, except for the "find" checkbox.
   - click "Save" button.
 
 ## Register
