@@ -38,3 +38,4 @@ You can view all posts via `GET /posts`, and count them via `GET /posts/count`.
 You can get one post via `GET /posts/[post_id]`.
 ​
 You can delete a post via `DELETE /posts/[post_id]`.
+
