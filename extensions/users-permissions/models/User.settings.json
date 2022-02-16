@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "users-permissions_user",
   "info": {
@@ -55,6 +56,10 @@
     },
     "description": {
       "type": "text"
+    },
+    "posts_liked": {
+      "via": "users_likes",
+      "collection": "posts"
     }
   }
 }

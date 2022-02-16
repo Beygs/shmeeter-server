@@ -1,12 +1,15 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "posts",
   "info": {
-    "name": "posts"
+    "name": "posts",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "text": {
@@ -19,6 +22,12 @@
     "like": {
       "type": "integer",
       "default": 0
+    },
+    "users_likes": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "posts_liked",
+      "dominant": true
     }
   }
 }
