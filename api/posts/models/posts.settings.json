@@ -28,6 +28,10 @@
       "collection": "user",
       "via": "posts_liked",
       "dominant": true
+    },
+    "modified": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
