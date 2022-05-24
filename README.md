@@ -62,7 +62,7 @@ Bravo, la configuration est terminée ! 🎉
 ### Public
 
 - [Register](./docs/register.md)&nbsp;: `POST /auth/local/register`<br/>
-- [Login](./docs/ulogin.md)&nbsp;: `POST /auth/local`<br/>
+- [Login](./docs/login.md)&nbsp;: `POST /auth/local`<br/>
 - [Liste des posts](./docs/posts/get.md)&nbsp;: `GET /posts`<br/>
 
 ### Authentifié
