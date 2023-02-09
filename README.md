@@ -75,3 +75,7 @@ Bravo, la configuration est terminée ! 🎉
 - [Profil d'un utilisateur](./docs/users/user_id/get.md)&nbsp;: `GET /users/[user_id]`
 - [Mon profil](./docs/users/me/get.md)&nbsp;: `GET /users/me`
 - [Modifier mon profil](./docs/users/me/put.md)&nbsp;: `PUT /users/me`
+
+## Remerciements
+
+Merci à @alchambron pour l'update de strapi en v4 !
