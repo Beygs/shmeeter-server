@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "texte": {
+    "text": {
       "type": "text"
     },
     "users_permissions_user": {
