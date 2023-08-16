@@ -37,7 +37,7 @@ yarn
 yarn develop
 ```
 
-Ensuite, tu peux te rendre sur [http://localhost:1337/admin](http://localhost:1337/admin) dans ton navigateur préféré, créer tes identifiants administrateurs, et c'est parti !
+Ensuite, tu peux te rendre sur [http://localhost:1337/api/admin](http://localhost:1337/api/admin) dans ton navigateur préféré, créer tes identifiants administrateurs, et c'est parti !
 
 ## Configuration des autorisations
 
@@ -61,20 +61,20 @@ Bravo, la configuration est terminée ! 🎉
 
 ### Public
 
-- [Register](./docs/register.md)&nbsp;: `POST /auth/local/register`<br/>
-- [Login](./docs/login.md)&nbsp;: `POST /auth/local`<br/>
-- [Liste des posts](./docs/posts/get.md)&nbsp;: `GET /posts`<br/>
+- [Register](./docs/register.md)&nbsp;: `POST /api/auth/local/register`<br/>
+- [Login](./docs/login.md)&nbsp;: `POST /api/auth/local`<br/>
+- [Liste des posts](./docs/posts/get.md)&nbsp;: `GET /api/posts`<br/>
 
 ### Authentifié
 
-- [Créer un post](./docs/posts/post.md)&nbsp;: `POST /posts`<br/>
-- [Trouver un post](./docs/posts/post_id/get.md)&nbsp;: `GET /posts/[post_id]`
-- [Modifier un post](./docs/posts.md/post_id/put.md)&nbsp;: `PUT /posts/[post_id]`
-- [Supprimer un post](./docs/posts/post_id/delete.md)&nbsp;: `DELETE /posts/[post_id]`
-- [Liste des utilisateurs](./docs/users/get.md)&nbsp;: `GET /users`
-- [Profil d'un utilisateur](./docs/users/user_id/get.md)&nbsp;: `GET /users/[user_id]`
-- [Mon profil](./docs/users/me/get.md)&nbsp;: `GET /users/me`
-- [Modifier mon profil](./docs/users/me/put.md)&nbsp;: `PUT /users/me`
+- [Créer un post](./docs/posts/post.md)&nbsp;: `POST /api/posts`<br/>
+- [Trouver un post](./docs/posts/post_id/get.md)&nbsp;: `GET /api/posts/[post_id]`
+- [Modifier un post](./docs/posts.md/post_id/put.md)&nbsp;: `PUT /api/posts/[post_id]`
+- [Supprimer un post](./docs/posts/post_id/delete.md)&nbsp;: `DELETE /api/posts/[post_id]`
+- [Liste des utilisateurs](./docs/users/get.md)&nbsp;: `GET /api/users`
+- [Profil d'un utilisateur](./docs/users/user_id/get.md)&nbsp;: `GET /api/users/[user_id]`
+- [Mon profil](./docs/users/me/get.md)&nbsp;: `GET /api/users/me`
+- [Modifier mon profil](./docs/users/me/put.md)&nbsp;: `PUT /api/users/me`
 
 ## Remerciements
 
