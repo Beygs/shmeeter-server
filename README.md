@@ -37,7 +37,7 @@ yarn
 yarn develop
 ```
 
-Ensuite, tu peux te rendre sur [http://localhost:1337/api/admin](http://localhost:1337/api/admin) dans ton navigateur préféré, créer tes identifiants administrateurs, et c'est parti !
+Ensuite, tu peux te rendre sur [http://localhost:1337/admin](http://localhost:1337/admin) dans ton navigateur préféré, créer tes identifiants administrateurs, et c'est parti !
 
 ## Configuration des autorisations
 
