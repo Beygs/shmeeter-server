@@ -14,13 +14,13 @@
 
 ```json
 {
-  "id": number;
-  "created_at": Date;
-  "updated_at": Date;
-  "like": number;
-  "modified": boolean;
-  "text": string;
-  "user": User;
-  "users_likes": User[];
+  "id": number,
+  attributes: {
+  "text": string,
+  "like": number,
+  "modified": boolean,
+  "created_at": Date,
+  "updated_at": Date,
+  }
 }
 ```

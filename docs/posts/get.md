@@ -13,5 +13,26 @@
 **Content Schema**
 
 ```json
-Post[]
+Post[
+  {
+    "id": number,
+    attributes: {
+    "text": string,
+    "like": number,
+    "modified": boolean,
+    "created_at": Date,
+    "updated_at": Date,
+    }
+  },
+  {
+    "id": number,
+    attributes: {
+    "text": string,
+    "like": number,
+    "modified": boolean,
+    "created_at": Date,
+    "updated_at": Date,
+    }
+  }
+]
 ```
