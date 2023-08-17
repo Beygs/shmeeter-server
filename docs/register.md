@@ -1,6 +1,6 @@
 # Register
 
-**URL** : `/auth/local/register`
+**URL** : `/api/auth/local/register`
 
 **Method** : `POST`
 

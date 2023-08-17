@@ -1,6 +1,6 @@
 # Update Post
 
-**URL** : `/posts/[post_id]`
+**URL** : `/api/posts/[post_id]`
 
 **Method** : `PUT`
 

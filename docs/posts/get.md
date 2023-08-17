@@ -1,6 +1,6 @@
 # Posts
 
-**URL** : `/posts`
+**URL** : `/api/posts`
 
 **Method** : `GET`
 

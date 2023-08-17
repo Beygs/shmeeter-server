@@ -1,6 +1,6 @@
 # Login
 
-**URL** : `/auth/local`
+**URL** : `/api/auth/local`
 
 **Method** : `POST`
 

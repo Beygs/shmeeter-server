@@ -1,6 +1,6 @@
 # Update Me
 
-**URL** : `/users/me`
+**URL** : `/api/users-permissions/users/me`
 
 **Method** : `PUT`
 

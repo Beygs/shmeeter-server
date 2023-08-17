@@ -1,6 +1,6 @@
 # New Post
 
-**URL** : `/posts`
+**URL** : `/api/posts`
 
 **Method** : `POST`
 

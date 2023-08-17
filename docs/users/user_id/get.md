@@ -1,6 +1,6 @@
 # User
 
-**URL** : `/users/[user_id]`
+**URL** : `/api/users/[user_id]`
 
 **Method** : `GET`
 
